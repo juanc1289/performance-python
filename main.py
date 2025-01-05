@@ -1,12 +1,13 @@
 import time
 
 """ 
-Resultado
-PC
+Resultado:
+
+PC: Intel Core i5-7200U 2.50GHz
 Cantidad de números primos hasta 1000000: 78498
 Tiempo de ejecución: 3.92 segundos
 
-Raspberry pi 4
+Raspberry Pi 4: ARM Cortex-A72 1.5GHz
 Cantidad de números primos hasta 1000000: 78498
 Tiempo de ejecución: 9.77 segundos
 
