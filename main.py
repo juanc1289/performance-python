@@ -2,8 +2,14 @@ import time
 
 """ 
 Resultado
+PC
 Cantidad de números primos hasta 1000000: 78498
 Tiempo de ejecución: 3.92 segundos
+
+Raspberry pi 4
+Cantidad de números primos hasta 1000000: 78498
+Tiempo de ejecución: 9.77 segundos
+
 """
 def es_primo(n):
     if n < 2:
