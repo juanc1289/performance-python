@@ -1,7 +1,7 @@
 import time
 
 """ 
-Resultado:
+Resultado hasa 1M:
 
 PC: Intel Core i5-7200U 2.50GHz
 Cantidad de números primos hasta 1000000: 78498
@@ -10,6 +10,16 @@ Tiempo de ejecución: 3.92 segundos
 Raspberry Pi 4: ARM Cortex-A72 1.5GHz
 Cantidad de números primos hasta 1000000: 78498
 Tiempo de ejecución: 9.77 segundos
+
+Resultado hasa 10M:
+
+PC: Intel Core i5-7200U 2.50GHz
+Cantidad de números primos hasta 10000000: 664579
+Tiempo de ejecución: 119.63 segundos
+
+Raspberry Pi 4: ARM Cortex-A72 1.5GHz
+Cantidad de números primos hasta 10000000: 664579
+Tiempo de ejecución: 253.11 segundos
 
 """
 def es_primo(n):
@@ -21,7 +31,7 @@ def es_primo(n):
     return True
 
 def main():
-    limite = 1000000
+    limite = 10000000
     contador_primos = 0
 
     # Inicia la medición de tiempo
